@@ -1,0 +1,6 @@
+f = open('demo.txt', 'r')
+data = f.read(6)
+print(data)
+data = f.read(6)
+print(data)
+f.close()

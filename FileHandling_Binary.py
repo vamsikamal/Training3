@@ -1,0 +1,6 @@
+f = open('tata.jpg', 'rb')
+f2 = open('altroz.jpg', 'wb')
+bytes = f.read()
+f2.write(bytes)
+f.close()
+f2.close()
